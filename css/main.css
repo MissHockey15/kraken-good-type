@@ -6,6 +6,10 @@ html {
   box-sizing: inherit;
 }
 
+article {
+  text-align: center;
+}
+
 header {
   display: block;
   background-color: #259f95;
@@ -21,10 +25,17 @@ body {
 }
 
 .chapter-num {
+  display: block;
   font-style: italic;
   font-size: 1rem;
 }
 
+.colon {
+  display: none;
+}
+
 p {
-  margin-left: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
+  text-align: left;
 }
