@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  display: block;
+  background-color: #259f95;
+  text-align: left;
+  color: #fff;
+  padding: 1em;
+  margin: 0 1em 2em 1em;
+  border-radius: .2em;
+}
+
+body {
+  margin: 0;
+}
+
+.chapter-num {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+p {
+  margin-left: 2em;
+}
