@@ -1,13 +1,12 @@
 html {
   box-sizing: border-box;
+  font-family: "Libre Baskerville", serif;
+  font-size: 1rem;
+  color: #222;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-}
-
-article {
-  text-align: center;
 }
 
 header {
@@ -16,8 +15,29 @@ header {
   text-align: left;
   color: #fff;
   padding: 1em;
-  margin: 0 1em 2em 1em;
+  margin: 0 2em 1em 2em;
   border-radius: .2em;
+  font-size: 1.5rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0 3em;
+  text-align: left;
+  text-indent: 1em;
+}
+
+header+p {
+  text-indent: 0;
+}
+
+header+p::first-line {
+  text-indent: 0;
+  color: #1e7c74;
+  font-style: italic;
 }
 
 body {
@@ -34,8 +54,18 @@ body {
   display: none;
 }
 
-p {
-  margin-left: 3em;
-  margin-right: 3em;
-  text-align: left;
+img {
+  width: 100%;
+}
+
+footer {
+  display: block;
+  background-color: #259f95;
+  color: #fff;
+  padding: 2em;
+  margin: 2em 2em 0 2em;
+  border-radius: .2em;
+  font-size: 0.75rem;
+  font-style: italic;
+  text-align: center;
 }
