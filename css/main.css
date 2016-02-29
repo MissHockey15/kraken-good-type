@@ -3,6 +3,8 @@ html {
   font-family: "Libre Baskerville", serif;
   font-size: 1rem;
   color: #222;
+  max-width: 50em;
+  text-align: center;
 }
 
 *, *::before, *::after {
@@ -25,16 +27,16 @@ h1 {
 }
 
 p {
-  margin: 0 3em;
+  margin: 0 4em;
   text-align: left;
   text-indent: 1em;
 }
 
-header+p {
+header + p {
   text-indent: 0;
 }
 
-header+p::first-line {
+header + p::first-line {
   text-indent: 0;
   color: #1e7c74;
   font-style: italic;
@@ -56,6 +58,7 @@ body {
 
 img {
   width: 100%;
+  display: block;
 }
 
 footer {
